@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6dcc4"/>
+      <stop offset="1" stop-color="#e9b896"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="55%">
+      <stop offset="0" stop-color="#C0392B" stop-opacity="0.35"/>
+      <stop offset="0.6" stop-color="#C0392B" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#C0392B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="plate" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#F8F3EA" stop-opacity="0.10"/>
+      <stop offset="0.7" stop-color="#F8F3EA" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#F8F3EA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <!-- ornamental plate -->
+  <circle cx="400" cy="500" r="307.6923076923077" fill="url(#plate)"/>
+  <circle cx="400" cy="500" r="307.6923076923077" fill="none" stroke="#C0392B" stroke-width="1.5" opacity="0.25"/>
+  <circle cx="400" cy="500" r="221.53846153846152" fill="none" stroke="#C0392B" stroke-width="1" opacity="0.18"/>
+  <circle cx="400" cy="500" r="153.84615384615384" fill="none" stroke="#C0392B" stroke-width="1" opacity="0.12"/>
+  <!-- steam wisps -->
+  <g opacity="0.18" stroke="#F8F3EA" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M370 376.9230769230769 q 10 -20 0 -40 t 0 -40"/>
+    <path d="M430 376.9230769230769 q -10 -20 0 -40 t 0 -40"/>
+  </g>
+  <g transform="translate(400 500)">
+    <text text-anchor="middle" y="-6" font-family="Playfair Display, Georgia, serif" font-size="50" font-weight="700" fill="#E0BE4A">Our Story</text>
+    <text text-anchor="middle" y="31" font-family="Poppins, sans-serif" font-size="19" fill="#F8F3EA" opacity="0.7" letter-spacing="2">EST. 2014</text>
+  </g>
+</svg>
